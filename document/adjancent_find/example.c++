@@ -45,7 +45,7 @@ int main()
     {
         cout << "There are two adjacent elements where "
             << "the second is twice the first.\n"
-            << "They have values of " << *(result2++)
-            << " & " << *result2 << "." << endl;
+            << "They have values of " << *(result2++);
+        cout << " & " << *result2 << "." << endl;
     }
 }
