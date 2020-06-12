@@ -1,6 +1,6 @@
 ## 文档定义
 ```c++
-  template<class ForwardIterator>
+template<class ForwardIterator>
 ForwardIterator adjacent_find(
     ForwardIterator first,
     ForwardIterator last);
